@@ -9,7 +9,7 @@ class Problem5Spec extends FlatSpec with Matchers {
 
   val p5 = Problem5
 
-  "A list" should "be able to be reversed to matter its type" in {
+  "A list" should "be able to be reversed no matter its type" in {
     val notEmptyListInt = List(1, 2, 3, 4, 5)
     p5.reverse(notEmptyListInt) should be (List(5, 4, 3, 2, 1))
 
